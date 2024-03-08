@@ -10,10 +10,13 @@ public class SimuladorTenis {
     private String nombreJugador2;
     private Scanner scanner;
     private Random random;
+    private Validaciones validaciones;
 
     public SimuladorTenis() {
         this.scanner = new Scanner(System.in);
         this.random = new Random();
+        this.validaciones = new Validaciones(); // Inicialización de la variable validaciones
+
     }
 
     public void iniciarJuego() {
@@ -33,16 +36,15 @@ public class SimuladorTenis {
         System.out.println("Gracias por jugar.");
     }
 
-    public void iniciarPartido() {
-        System.out.println("Ingrese el nombre del Jugador 1:");
-        nombreJugador1 = scanner.nextLine();
 
-        System.out.println("Ingrese el nombre del Jugador 2:");
-        nombreJugador2 = scanner.nextLine();
+    public void iniciarPartido() {
+        nombreJugador1 = validaciones.obtenerNombre("Ingrese el nombre del Jugador 1:");
+        nombreJugador2 = validaciones.obtenerNombre("Ingrese el nombre del Jugador 2:");
 
         System.out.println("Bienvenido al Simulador de Partido de Tenis");
         System.out.println("Presiona Enter para comenzar el partido.");
         scanner.nextLine();
+
 
         while (true) {
             // Generar el punto aleatoriamente para uno de los jugadores
