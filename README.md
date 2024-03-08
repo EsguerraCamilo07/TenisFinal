@@ -1,6 +1,6 @@
 #Instruciones de uso.
-Este aplicativo tiene el proposito de recrear un partido de tenis, el cual tiene manejo de nombres de jugadores, puntos y sets (Los puntos seran de manera aleatoria, el gandor se definira 
-cuando halla una ventaja de dos puntos y el que gane dos sets terminara gananodo el partido)
+Este aplicativo tiene el proposito de recrear un partido de tenis, el cual tiene manejo de nombres de jugadores, puntos y sets (Los puntos seran de manera aleatoria, el ganador se definira 
+cuando haya una ventaja de dos puntos y el que gane dos sets terminara ganando el partido)
 El aplicativo funciona de la siguiente manera:
 1) Debes indicar si deseas jugar o no.
 2) Si dices que no el juego termina.
