@@ -62,11 +62,17 @@ public class SimuladorTenis {
             if (puntosJugador1 >= 4 && puntosJugador1 >= puntosJugador2 + 2) {
                 setsJugador1++;
                 System.out.println(nombreJugador1 + " gana el set.");
+                System.out.println("Sets:");
+                System.out.println(nombreJugador1 + ": " + setsJugador1 + " sets");
+                System.out.println(nombreJugador2 + ": " + setsJugador2 + " sets");
                 puntosJugador1 = 0;
                 puntosJugador2 = 0;
             } else if (puntosJugador2 >= 4 && puntosJugador2 >= puntosJugador1 + 2) {
                 setsJugador2++;
                 System.out.println(nombreJugador2 + " gana el set.");
+                System.out.println("Sets:");
+                System.out.println(nombreJugador1 + ": " + setsJugador1 + " sets");
+                System.out.println(nombreJugador2 + ": " + setsJugador2 + " sets");
                 puntosJugador1 = 0;
                 puntosJugador2 = 0;
             }
