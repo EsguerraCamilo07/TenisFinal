@@ -1,11 +1,13 @@
-#Instruciones de uso.
-Este aplicativo tiene el proposito de recrear un partido de tenis, el cual tiene manejo de nombres de jugadores, puntos y sets (Los puntos seran de manera aleatoria, el ganador se definira 
-cuando haya una ventaja de dos puntos y el que gane dos sets terminara ganando el partido)
+Instrucciones de uso:
+Este aplicativo tiene el propósito de recrear un partido de tenis, el cual implica el manejo de nombres de jugadores, puntos y sets. Los puntos serán generados de manera aleatoria, y el ganador se determinará cuando haya una ventaja de dos puntos. El jugador que gane dos sets terminará ganando el partido.
+
 El aplicativo funciona de la siguiente manera:
-1) Debes indicar si deseas jugar o no.
-2) Si dices que no el juego termina.
-3) Si dices que si el juego te pedira los dos nombres de tus jugadores, solo recibe letras si no lo haces asi no te dejara avanzar.
-4) Al dar tus nombres correctamente te pedira dar ENTER  para iniciar y asi empiaza a decir quien gana el punto al darte el punto nuevamente debes dar ENTER asi hasta que alguien gane el juego.
-5) Al darte el ganador te dira si deseas jugar nuevamente o no.
-6) Si das que si el juego se reinicia de nuevo.
-7) Si das que no se termina el juego.
+
+Debes indicar si deseas jugar o no.
+Si decides que no, el juego terminará.
+Si decides que sí, el juego te pedirá los nombres de los dos jugadores. Por favor, ingresa únicamente letras; de lo contrario, no podrás avanzar.
+Una vez ingresados correctamente los nombres, presiona ENTER para iniciar. El juego comenzará a indicar quién gana el punto. Para continuar, simplemente presiona ENTER cada vez que se otorgue un punto, hasta que alguien gane el juego.
+Cuando haya un ganador, el juego te preguntará si deseas jugar nuevamente o no.
+Si decides jugar nuevamente, el juego se reiniciará.
+Si decides no jugar, el juego terminará.
+Por favor, sigue estas instrucciones para disfrutar del juego de manera adecuada. ¡Que te diviertas!
